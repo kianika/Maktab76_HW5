@@ -1,0 +1,125 @@
+
+html, body{
+    font-family: sans-serif;
+    font-size: 0.85rem;
+    padding: 0;
+    margin: 0;
+}
+
+.box
+{
+    background-color: rgb(38, 37, 37);
+    display: flex;
+    color:rgb(229, 230, 232);
+    flex-direction: column;
+    align-items: center;
+    padding: 4em 0 6em 0;
+}
+
+p {
+    width: 36%;
+    text-align: center;
+}
+
+button{
+    background-color: transparent;
+    border: 0.01px solid rgb(229, 230, 232);;
+    color: rgb(229, 230, 232);
+    font-size: 0.85em;
+    padding: 8px; 
+}
+
+.box2{
+   padding: 1em 0 2.5em 0;
+   display: flex;
+   color: rgb(38, 37, 37);
+   align-items: center;
+   flex-direction: column;
+   background-color: rgb(241, 239, 239);
+}
+
+.p2{
+    column-count: 2;
+    column-gap: 2em;
+}
+
+.box3{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(38, 37, 37);
+    justify-content: center;
+    
+}
+.ibox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 16em;
+    background-color: whitesmoke;
+    text-align: center;
+    margin: 0.7em 0.5em; 
+    padding: 1.8em 0; 
+}
+
+.p3{
+    width: 13em;
+}
+
+.container2{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.box5 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(19, 149, 220);
+    color:rgb(229, 230, 232);
+}
+.box6{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(229, 230, 232);
+    background-color: rgb(38, 37, 37);
+}
+
+
+.fbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: rgb(229, 230, 232);
+    background-color: black;
+    box-sizing: border-box;
+}
+.fbox1{
+flex-basis:50%;
+display: flex;
+align-items: center;
+justify-content: center; 
+}
+.fbox2{
+flex-basis: 50%;
+display: flex;
+align-items: center;
+justify-content: center; 
+
+}
+.p4{
+    width: 12em;
+    text-align: center;
+}
+span{
+    color:rgb(26, 132, 213)
+}
+
+.pe{
+    width: auto;
+}
