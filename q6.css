@@ -90,6 +90,13 @@ button{
     background-color: rgb(38, 37, 37);
 }
 
+.box5 h3{
+    padding-top: 1.5em;
+}
+.box6 h3{
+    padding-top: 1.5em;
+}
+
 
 .fbox{
     display: flex;
